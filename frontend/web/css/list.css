@@ -1,0 +1,78 @@
+@charset "utf-8";
+.main{width:970px; margin-left:auto; margin-right:auto; font-family:Arial,Helvetica,sans-serif;}
+.nav{ width:970px; height:35px;background:url(../../images/huanbao/navbj.jpg) no-repeat; line-height:35px; }
+.nav ul{ width:100%;}
+.nav ul li{ width:110px; float:left; text-align:center;}
+.nav ul li a{ color:#FFF;}
+.nav ul li:hover{background:url(../../images/huanbao/hover_bg.jpg) repeat-x; }
+
+.content{width:970px; margin-left:auto; margin-right:auto; font-family:Arial,Helvetica,sans-serif;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title{ font-size:14px; color:#FFF; padding-left:20px; font-weight:bold;}
+.posts {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 655px; LINE-HEIGHT: 26px; PADDING-TOP: 0px
+}
+.posts P {
+	MARGIN-BOTTOM: 10px
+}
+.single {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 0px; WIDTH: 645px; PADDING-TOP: 0px
+}
+.single H2 {
+	FONT-SIZE: 18px; PADDING-BOTTOM: 10px; MARGIN: 20px 0px; COLOR: #222; BORDER-BOTTOM: #ddd 1px solid; TEXT-ALIGN: center
+}
+.postlist {
+	MARGIN: 15px 0px 0px
+}
+.postlist LI {
+	PADDING-LEFT: 12px; BACKGROUND: url(../images/arrow.gif) no-repeat 0px 14px; FLOAT: left; WIDTH: 640px; LINE-HEIGHT: 32px; BORDER-BOTTOM: #ddd 1px dashed; HEIGHT: 32px
+}
+.postlist LI H3 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; FLOAT: left; WIDTH: 500px
+}
+.postlist LI SPAN {
+	FLOAT: right; WIDTH: 80px; COLOR: #666; TEXT-ALIGN: right
+}
+.productlist {
+	MARGIN-TOP: 20px
+}
+.productlist LI {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 10px; OVERFLOW: hidden; WIDTH: 205px; PADDING-TOP: 0px; HEIGHT: 190px
+}
+.productlist LI IMG {
+	BORDER-RIGHT: #e4e4e4 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #e4e4e4 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #e4e4e4 1px solid; WIDTH: 200px; PADDING-TOP: 2px; BORDER-BOTTOM: #e4e4e4 1px solid; HEIGHT: 160px
+}
+.productlist LI .product_name {
+	DISPLAY: block; OVERFLOW: hidden; WIDTH: 200px; LINE-HEIGHT: 15px; HEIGHT: 15px; TEXT-ALIGN: center
+}
+
+
+
+.productlistjh {
+	MARGIN-TOP: 20px
+}
+.productlistjh LI {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 10px; OVERFLOW: hidden; WIDTH: 205px; PADDING-TOP: 0px; HEIGHT: 260px
+}
+.productlistjh LI IMG {
+	BORDER-RIGHT: #e4e4e4 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #e4e4e4 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #e4e4e4 1px solid; WIDTH: 200px; PADDING-TOP: 2px; BORDER-BOTTOM: #e4e4e4 1px solid; HEIGHT: 230px
+}
+.productlistjh LI .product_name {
+	DISPLAY: block; OVERFLOW: hidden; WIDTH: 200px; LINE-HEIGHT: 15px; HEIGHT: 15px; TEXT-ALIGN: center
+}

@@ -1,0 +1,214 @@
+﻿*{ margin:0px; padding:0px;}
+#bn {
+	width:970px;
+	height: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow:hidden;
+}
+#bn .tu {
+	text-align: center;
+	display: block;
+}
+#bn .tu img{ width:100%; height:100%;}
+.xu {
+	border:1px solid #333;
+	display: inline;
+	float: left;
+	height:20px;
+	width: 20px;
+	line-height: 20px;
+	color:#FFF;
+	font-size: 14px;
+	font-weight: bolder;
+	cursor:pointer;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align:center;
+	margin-left:3px;
+	background:#CCC;
+	text-decoration:none;
+}
+.fenhong{
+	text-align:center;
+	margin-left:3px;
+	display: inline;
+	float: left;
+	height:20px;
+	width: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	color:#FFF;
+	border:1px solid #900;
+	background:#C00;
+	text-decoration:none !important;
+}
+#bn #hao {
+	position:absolute;
+	right: 0px;
+	height: 53px;
+	width: 300px;
+	z-index: 3;
+	bottom: 150px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#bn .txt {
+	display: block;
+	position: absolute;
+	top: 423px;
+	height: 53px;
+	width: 385px;
+	right: 50px;
+	z-index: 3;
+}
+
+#bn .txt .zi1 {
+	background-image: url(../images/txtbg.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 53px;
+	width: 154px;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 50px;
+	color: #FFFFFF;
+	font-weight: bold;
+	position: absolute;
+	left: 7px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	background-position: center center;
+	z-index: 3;
+}
+#bn .txt .zi2 {
+	background-image: url(../images/txtbg.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 53px;
+	width: 154px;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 50px;
+	color: #FFFFFF;
+	font-weight: bold;
+	position: absolute;
+	left: 66px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	background-position: center center;
+	z-index: 3;
+	text-align:center;
+}
+#bn .txt .zi3 {
+	background-image: url(../images/txtbg.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 53px;
+	width: 154px;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 50px;
+	color: #FFFFFF;
+	font-weight: bold;
+	position: absolute;
+	left: 125px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	text-align:center;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	background-position: center center;
+	z-index: 3;
+}
+#bn .txt .zi4{
+	background-image: url(../images/txtbg.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 53px;
+	width: 154px;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 50px;
+	color: #FFFFFF;
+	font-weight: bold;
+	position: absolute;
+	left: 183px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	text-align:center;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	background-position: center center;
+	z-index: 3;
+}
+#bn .txt .zi5 {
+	background-image: url(../images/txtbg.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 53px;
+	width: 154px;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 50px;
+	color: #FFFFFF;
+	font-weight: bold;
+	position: absolute;
+	left: 243px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	background-position: center center;
+	z-index: 3;
+}
+
+#bn .tiao {
+	background-color: #000000;
+	height: 25px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	z-index: 2;
+	left: 0px;
+	filter:alpha(opacity=30);
+
+	-moz-opacity:0.3;
+	
+	-khtml-opacity: 0.3;
+	
+	opacity: 0.3;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+#bn .tu .lianjie {
+	width:970px !important;
+	display: block;
+	height: 300px;
+}
+/* 代码整理：懒人之家 www.lanrenzhijia.com */

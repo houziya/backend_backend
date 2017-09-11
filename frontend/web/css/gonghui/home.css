@@ -1,0 +1,120 @@
+body,div,dl,dt,dd,ul,li,h3,p,button{ padding: 0; margin: 0; border: 0;}
+body{ background:#d8dadb url(../../images/bg.jpg) no-repeat center 140px; color:#666; text-align:center;font:12px 寰蒋闆呴粦,Arial,瀹嬩綋;}
+a:link, a:visited{ text-decoration: none; color:#333;}
+a:hover{ text-decoration: none;color:#000099; }
+a img{border:0px;}
+ul,li{list-style:none;}
+
+/*******************
+
+
+/*menu*/
+.menu{margin:0 auto;width:100%;height:46px;background:#d8dadb url(../../images/mn-bg.gif) repeat-x 0 0;border-top: 1px solid #88a3b9;border-bottom: 1px solid #88a3b9;position:relative;z-index:999}
+.menumain{margin:0 auto;width:1000px;height:46px;border-left:1px solid #88a3b9;}
+.menumain ul{height:46px;background:url(../../images/line-2.gif) no-repeat 0 0;float:right;}
+.menumain li{width:110px;height:46px;float:left;border-right:1px solid #88a3b9;font-size:15px;font-weight: bold;}
+.menu .menumain li a {display:block;height:46px;width:110px;line-height:46px;color:#00468c;text-align:center;}
+.onhover{color:#fff;  background: url(../../images/nav-h.png) no-repeat;height:46px;width:110px;line-height:50px;}
+.menumain li a:hover{color:#fff;background:#5883a6;height:46px;width:110px;}
+.dropmenudiv{position:absolute;border: 1px solid #ccc; border-top:none;border-bottom:none;background:#e7e9e9 ;width:110px;visibility: hidden;padding-bottom:-1px;margin:-85px 0 0 -1px}
+.dropmenudiv a{width: 100%;display: block;border-bottom: 1px solid #C5C6C6;padding:0;text-decoration: none;font-size:12px;padding:8px 0}
+* html .dropmenudiv a{ /*IE only hack*/
+    width:100%;}
+.dropmenudiv a:link, a:visited{color:#000;text-decoration:none;}
+.dropmenudiv a:hover{ width:100%;background:#fff;color:#ff0000}
+.menumain ul .pg,.menumain ul .pg a,.menumain ul .pg a:hover{width:108px;}
+
+
+/*=====================棣栭〉========================*/
+.toptop{width:100%;padding-top:15px;height:70px;background:#bec4c7 url(../../images/t-bg.gif) no-repeat center 0}
+.topcontent{width:1000px;margin:0 auto;}
+.logo{width:610px;height:60px;float:left;}
+.logo a{float:left}
+.logo p{float:right;text-align:left;padding-left:15px;border-left: 1px solid #b1b8c0;margin-top:5px;color:#999}
+
+.search{width:263px;height:23px;float:right;color:#0062A8;}
+.btn{width:60px;height:23px;float:left}
+.sqdi{border: 1px solid #dedede;height:19px;width:188px;float:left;padding:1px 5px;color:#999;line-height:16px}
+
+/*---------澶撮儴------------*/
+
+/*閭鐧婚檰*/
+.bizmail_loginpanel{font-size:12px;width:300px;height:auto;border:1px solid #cccccc;background:#ffffff;text-align:left}
+.bizmail_LoginBox{padding:10px 15px;}
+.bizmail_loginpanel h3{padding-bottom:5px;margin:0 0 5px 0;border-bottom:1px solid #cccccc;font-size:14px;}
+.bizmail_loginpanel form{margin:0;padding:0;}
+.bizmail_loginpanel input.text{font-size:12px;width:140px;height:20px;margin:0 2px;border:1px solid #C3C3C3;border-color:#7C7C7C #C3C3C3 #C3C3C3 #9A9A9A;}
+.bizmail_loginpanel .bizmail_column{height:28px;}
+.bizmail_loginpanel .bizmail_column label{display:block;float:left;width:30px;height:24px;line-height:24px;font-size:12px;}
+.bizmail_loginpanel .bizmail_column .bizmail_inputArea{float:left;width:240px;}
+.bizmail_loginpanel .bizmail_column span{font-size:12px;word-wrap:break-word;margin-left: 2px;line-height:200%;}
+.bizmail_loginpanel .bizmail_SubmitArea{margin-left:30px;clear:both;}
+.bizmail_loginpanel .bizmail_SubmitArea a{font-size:12px;margin-left:5px;float:right}
+.bizmail_loginpanel select{width:110px;height:20px;margin:0 2px;}
+
+.deng{height:20px;_overflow:hidden;float:right;}
+.deng a{color:#fff;height:20px;line-height:16px;float:left;position:relative}
+.deng li{font-size:14px;float:left;position:relative;padding:8px 20px;border-right:1px solid #88a3b9;z-index:99999;}
+.deng .email:hover{background-color:#e9eaeb;border:1px solid #88a3b9;border-bottom:none;border-left:none;padding:8px 20px}
+
+.deng ul{background-color:#e9eaeb;border:1px solid #88a3b9;border-top:none;position:absolute;left:-1px;top:-999em;z-index:99999;padding:8px;display:none}
+.deng li:hover ul{top:31px;display:block;width:320px;left:-215px}
+.deng li:hover ul li{font-size:12px;border:none;width:70px;float:left;padding:4px 0 4px 10px}
+.deng li:hover ul li a{color:#333;text-decoration:none;padding:0}
+.deng li:hover ul li a:hover{text-decoration:underline}
+/*IE6*/
+.deng li.hover ul{top:31px;display:block;width:320px;left:-215px}
+.deng li.hover ul li{border:none;width:70px;float:left;padding:4px 0 4px 10px}
+.deng li.hover ul li a{height:16px;line-height:16px;font-size:12px;color:#333;text-decoration:none;padding:0}
+.deng li.hover ul li a:hover{text-decoration:underline}
+.deng li.no_sub.hover1{border:1px solid #629d2a;padding:7px 11px}
+
+
+
+.homexm{width:1000px;float:left;}
+.homexm p{width:292px;float:left;border-right: 1px solid #b5c0cd;padding:0 20px}
+.homexm span{float:left;padding:10px 0;color:#999;}
+.homexm span img{padding-top:3px}
+.homexm .xm{padding:10px 0 0 20px;color:#999;}
+.homexm .xm a{font-size:20px;font-weight:bold;color:#00468c;}
+.three{width:100%}
+
+.content{margin:0 auto;width:1000px;text-align:left;padding:30px 0;overflow:hidden}
+.about{width:480px;float:left;}
+.title{position:relative;width:100%;height:25px;border-bottom:1px solid #b5c0cd;}
+.more{position:absolute;width:35px;height:10px;right:0;top:5px}
+.about p{float:left;width:480px;line-height:20px;padding:10px 0}
+.beer{position:relative;background: url(../images/beer.png) no-repeat right bottom;height:275px;width:221px;margin-left:-80px;float:left}
+.more{float:right;padding-top:5px}
+
+#news{width:470px;float:right;}
+.picnews{width:470px;padding-top:5px}
+.newspic img{width:110px;height:80px;float: left;border: 1px solid #BFC5C5;margin-top:5px;padding:2px}
+.picnews dl{width:340px;float: right;}
+.picnews dl dt{width:330px;float: left;background:url(../images/v.gif) no-repeat left 10px;padding:3px 0px 5px 10px;font-size:14px;font-weight: bold;}
+.picnews dl dd{width:340px;height: 50px;overflow:hidden;float: left;line-height: 18px;padding-top:5px}
+.go{width:240px;height: 20px;float: right;background:url(../images/xx.gif) no-repeat right bottom;}
+.go a{height:20px;width:240px;display:block;float: right;}
+
+#newsn{float: left;width:470px;line-height: 20px;margin-top:15px;border-top: 1px solid #BFC5C5;}
+#newsn li{height:28px;line-height:28px;border-bottom: 1px solid #BFC5C5;}
+#newsn li a{height:28px;display:block;padding:0 0 0 12px;background:url(../images/v.gif) no-repeat left center;}
+#newsn li span{float:right;color:#999;margin-top:2px;font:11px Arial,瀹嬩綋;padding-top:3px;}
+
+
+
+/* 澶氫釜宸︽粴鍔�  */
+.indexlj{width:1000px;margin:0 auto;padding:0 0 20px 0;overflow:hidden;text-align:left;}
+.picList li{ width:100px;}
+.picList .pic{ text-align:center; line-height:0px;  }
+.picList .pic img{ width:80px; height:80px; padding:3px; border:1px solid #ccc;  }
+.picList .pic a:hover img{ border-color:#000099;  }
+.picList span{ line-height:24px;padding-top:5px;width:80px}
+.leftLoop{ overflow:hidden; position:relative;  }
+.leftLoop .bd{ padding:10px 0;   }
+.leftLoop .bd ul{ overflow:hidden; zoom:1; }
+.leftLoop .bd ul li{ margin:0 2px; text-align:center; float:left; _display:inline; overflow:hidden;  }
+#bottom{background:#cfd2d4;width: 100%;height:130px;padding-top:20px;text-align:left;border-top:1px solid #fff}
+#bottom p{background: url(../../images/g.png) no-repeat 0 0;width: 900px;height:80px;margin:0 auto;color:#999;padding:20px 0 0 120px;position:relative;}
+#bottom span{position:absolute;right:0;top:20px;width:200px;text-align:right}
+#bottom span a{color:#999;}
